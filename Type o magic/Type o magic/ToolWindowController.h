@@ -46,6 +46,7 @@
 - (IBAction) close:(id)sender;
 - (IBAction) switchPolarity:(id)sender;
 - (IBAction) thin:(id)sender;
+- (IBAction) thinB:(id)sender;
 - (IBAction) crop:(id)sender;
 - (IBAction) resetImage:(id)sender;
 - (IBAction) trace:(id)sender;

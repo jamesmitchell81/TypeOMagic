@@ -14,10 +14,11 @@
 @implementation ZhangSuenThin
 
 
-- (NSBitmapImageRep*) thinImage:(NSImage*)image
+- (NSBitmapImageRep*) thinImage:(NSImage*)image withLowerThreshold:(int)lt
 {
     width = image.size.width;
     height = image.size.height;
+    lowerThreshold = lt;
     
     NSBitmapImageRep* outputRepresentation = [ImageRepresentation grayScaleRepresentationOfImage:image];
     output = [outputRepresentation bitmapData];
@@ -72,7 +73,7 @@
             if ( output[p7] == 0 ) b++;
             if ( output[p8] == 0 ) b++;
             if ( output[p9] == 0 ) b++;
-            BOOL deleteA = ( (b <= 6) && (b >= 3) );
+            BOOL deleteA = ( (b <= 6) && (b >= lowerThreshold) );
             
             // b)
             if ( (output[p2] == 255) && (output[p3] == 0) ) a++;
@@ -142,7 +143,7 @@
             if ( output[p7] == 0 ) b++;
             if ( output[p8] == 0 ) b++;
             if ( output[p9] == 0 ) b++;
-            BOOL deleteA = ( (b <= 6) && (b >= 3) );
+            BOOL deleteA = ( (b <= 6) && (b >= lowerThreshold) );
 
             // b) transitions between 0 -> 1 (white -> block)
             if ( (output[p2] == 255) && (output[p3] == 0) ) a++;

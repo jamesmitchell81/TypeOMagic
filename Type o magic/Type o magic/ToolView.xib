@@ -24,10 +24,10 @@
         <window title="Tools" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" frameAutosaveName="" animationBehavior="default" id="8SU-WB-JiF" customClass="NSPanel">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" utility="YES" HUD="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="196" y="116" width="365" height="723"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <rect key="contentRect" x="196" y="116" width="365" height="717"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1080"/>
             <view key="contentView" id="brm-AD-Dim">
-                <rect key="frame" x="0.0" y="0.0" width="365" height="723"/>
+                <rect key="frame" x="0.0" y="0.0" width="365" height="717"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="soW-iJ-YyS">
@@ -241,14 +241,14 @@
                         </connections>
                     </slider>
                     <button verticalHuggingPriority="750" fixedFrame="YES" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LXA-jc-MGC">
-                        <rect key="frame" x="78" y="185" width="208" height="32"/>
+                        <rect key="frame" x="78" y="185" width="106" height="32"/>
                         <animations/>
-                        <buttonCell key="cell" type="push" title="Thin" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zQj-k3-dFa">
+                        <buttonCell key="cell" type="push" title="Thin 2" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zQj-k3-dFa">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
-                            <action selector="thin:" target="-2" id="ePo-El-aAs"/>
+                            <action selector="thin:" target="-2" id="LTG-ce-qyE"/>
                         </connections>
                     </button>
                     <button verticalHuggingPriority="750" fixedFrame="YES" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wKe-Yw-hC0">
@@ -266,7 +266,7 @@
                         <rect key="frame" x="78" y="234" width="208" height="32"/>
                         <animations/>
                         <buttonCell key="cell" type="push" title="Crop" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4R8-Q1-Pdr">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
@@ -295,10 +295,21 @@
                             <action selector="pinCurrent:" target="-2" id="vup-2t-fWn"/>
                         </connections>
                     </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VMs-ju-4hA">
+                        <rect key="frame" x="180" y="185" width="106" height="32"/>
+                        <animations/>
+                        <buttonCell key="cell" type="push" title="Thin 3" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="s9y-2h-gE5">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="thinB:" target="-2" id="8Y6-6Q-1Go"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <animations/>
             </view>
-            <point key="canvasLocation" x="-508.5" y="-101.5"/>
+            <point key="canvasLocation" x="-338.5" y="-97.5"/>
         </window>
     </objects>
 </document>

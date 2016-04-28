@@ -45,6 +45,8 @@
     [self setCurrent:original];
     [self setSubject:original];
     [self setThresholded:original];
+    
+    filtered = nil;
 }
 
 + (NSBitmapImageRep *) grayScaleRepresentationOfImage:(NSImage *)image
@@ -135,8 +137,6 @@
               atomically:NO];
 }
 
-
-
 + (NSImage*) cacheImageFromRepresentation:(NSBitmapImageRep *)representation
 {
     NSDictionary *imageProps = [NSDictionary dictionaryWithObject:[NSNumber numberWithFloat:1.0]
@@ -144,6 +144,47 @@
     
     NSData *newData = [representation representationUsingType:NSPNGFileType properties:imageProps];
     return [[NSImage alloc] initWithData:newData];
+}
+
++ (void) pathRepresentationToSVGFile:(NSArray*)data
+{
+    NSString* filepath = @"~/Desktop/traced.svg";
+    [[NSFileManager defaultManager] createFileAtPath:[filepath stringByExpandingTildeInPath] contents:nil attributes:nil];
+
+    NSMutableString* open = [[NSMutableString alloc] init]; // @"<svg>";
+    NSMutableString* close = [[NSMutableString alloc] init]; // @"<svg>";
+    NSMutableString* path = [[NSMutableString alloc] init]; //@"<path d = ";
+    NSMutableString* output = [[NSMutableString alloc] init];
+    
+    [path appendString:@"<path stroke-width='1' stroke='#000000' fill='none' d='"];
+    
+    NSPoint n;
+    NSValue *value;
+    
+    value = [data objectAtIndex:0];
+    [value getValue:&n];
+    [path appendFormat:@"M%f,%f", n.x, n.y];
+    
+    for ( int i = 0; i < [data count]; i++ )
+    {
+        value = [data objectAtIndex:i];
+        [value getValue:&n];
+        [path appendFormat:@" L%f,%f", n.x, n.y];
+    }
+    
+    [path appendString:@" Z'></path>"];
+    
+    [open appendString:@"<?xml version='1.0' encoding='UTF-8' standalone='no'?>"];
+    [open appendString:@"<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>"];
+    [close appendString:@"</svg>"];
+    
+    [output appendString:open];
+    [output appendString:path];
+    [output appendString:close];
+    
+//    NSLog(@"%@", output);
+    
+    [output writeToFile:[filepath stringByExpandingTildeInPath] atomically:YES encoding:NSUTF8StringEncoding error:nil];
 }
 
 

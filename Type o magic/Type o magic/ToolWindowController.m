@@ -273,7 +273,22 @@
 {
     ZhangSuenThin* zst = [[ZhangSuenThin alloc] init];
     
-    NSBitmapImageRep* newRep = [zst thinImage:representation.subject];
+    NSBitmapImageRep* newRep = [zst thinImage:representation.subject withLowerThreshold:2];
+    NSImageRep* rep = [representation.subject.representations objectAtIndex:0];
+    [representation.subject removeRepresentation:rep];
+    [representation.subject addRepresentation:newRep];
+    
+    [representation setCurrent:representation.subject];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"ImageUpdateReciever"
+                                                        object:self];
+}
+
+- (IBAction) thinB:(id)sender
+{
+    ZhangSuenThin* zst = [[ZhangSuenThin alloc] init];
+    
+    NSBitmapImageRep* newRep = [zst thinImage:representation.subject withLowerThreshold:3];
     NSImageRep* rep = [representation.subject.representations objectAtIndex:0];
     [representation.subject removeRepresentation:rep];
     [representation.subject addRepresentation:newRep];
@@ -317,7 +332,7 @@
 
 - (void) resetToOriginal
 {
-    [representation resetSubject];
+    [representation reset];
     [[NSNotificationCenter defaultCenter] postNotificationName:@"ResetOriginalImage" object:self];
 }
 
@@ -328,9 +343,11 @@
     
     // line simplification here
     
-    dwc = [[DrawingWindowController alloc] initWithWindowNibName:@"DrawingWindow"];
-    [dwc setDrawingData:tracedPoints];
-    [dwc showWindow:nil];
+//    dwc = [[DrawingWindowController alloc] initWithWindowNibName:@"DrawingWindow"];
+//    [dwc setDrawingData:tracedPoints];
+//    [dwc showWindow:nil];
+    
+    [ImageRepresentation pathRepresentationToSVGFile:tracedPoints];
 }
 
 - (IBAction) lineDensityHistorgram:(id)sender

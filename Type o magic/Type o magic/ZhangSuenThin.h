@@ -13,11 +13,13 @@
 {
     int width;
     int height;
+    int lowerThreshold;
     BOOL complete;
     unsigned char* output;
 }
 
-- (NSBitmapImageRep*) thinImage:(NSImage*)image;
+- (NSBitmapImageRep*) thinImage:(NSImage*)image withLowerThreshold:(int)lt;
+//- (NSBitmapImageRep*) thinImage:(NSImage*)image;
 - (void) subIteration1;
 - (void) subIteration2;
 

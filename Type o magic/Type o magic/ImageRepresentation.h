@@ -24,7 +24,7 @@
 @property (nonatomic) NSImage* filtered;
 @property (nonatomic) NSImage* thresholded;
 
-- (void) resetSubject;
+- (void) reset;
 
 // representation.
 + (NSImage*) cacheImageFromRepresentation:(NSBitmapImageRep *)representation;
@@ -35,6 +35,7 @@
                                               atSize:(NSSize)size;
 
 
++ (void) pathRepresentationToSVGFile:(NSArray*)data;
 + (void) saveImageFileFromRepresentation:(NSBitmapImageRep *)representation
                                 fileName:(NSString*)filename;
 
