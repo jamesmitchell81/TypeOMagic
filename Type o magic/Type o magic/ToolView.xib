@@ -213,7 +213,7 @@
                     <button verticalHuggingPriority="750" fixedFrame="YES" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zSw-zM-tdi">
                         <rect key="frame" x="78" y="90" width="208" height="32"/>
                         <animations/>
-                        <buttonCell key="cell" type="push" title="Line Density Histogram" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SUq-Ys-Xjz">
+                        <buttonCell key="cell" type="push" title="Projection Profile" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SUq-Ys-Xjz">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -309,7 +309,7 @@
                 </subviews>
                 <animations/>
             </view>
-            <point key="canvasLocation" x="-338.5" y="-97.5"/>
+            <point key="canvasLocation" x="-624.5" y="-38.5"/>
         </window>
     </objects>
 </document>
