@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88B588FE1CCBF01F00E94942 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B588FD1CCBF01F00E94942 /* AppDelegate.m */; };
+		88B589011CCBF01F00E94942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B589001CCBF01F00E94942 /* main.m */; };
+		88B589061CCBF01F00E94942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B589051CCBF01F00E94942 /* Assets.xcassets */; };
+		88B589091CCBF01F00E94942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B589071CCBF01F00E94942 /* Main.storyboard */; };
+		88B589141CCBF02000E94942 /* Type_o_magicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B589131CCBF02000E94942 /* Type_o_magicTests.m */; };
+		88B5891F1CCBF02000E94942 /* Type_o_magicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5891E1CCBF02000E94942 /* Type_o_magicUITests.m */; };
+		88B589371CCBF07B00E94942 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5892D1CCBF07B00E94942 /* DrawingView.m */; };
+		88B589381CCBF07B00E94942 /* DrawingWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B5892E1CCBF07B00E94942 /* DrawingWindow.xib */; };
+		88B589391CCBF07B00E94942 /* DrawingWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B589301CCBF07B00E94942 /* DrawingWindowController.m */; };
+		88B5893A1CCBF07B00E94942 /* DropZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B589321CCBF07B00E94942 /* DropZoneView.m */; };
+		88B5893B1CCBF07B00E94942 /* ImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B589341CCBF07B00E94942 /* ImageCropView.m */; };
+		88B5893C1CCBF07B00E94942 /* ImageManipulationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B589361CCBF07B00E94942 /* ImageManipulationView.m */; };
+		88B589461CCBF08400E94942 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B5893D1CCBF08400E94942 /* MainWindow.xib */; };
+		88B589471CCBF08400E94942 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5893F1CCBF08400E94942 /* MainWindowController.m */; };
+		88B589481CCBF08400E94942 /* PixelTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B589411CCBF08400E94942 /* PixelTrace.m */; };
+		88B589491CCBF08400E94942 /* SVGWebDisplayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B589421CCBF08400E94942 /* SVGWebDisplayView.xib */; };
+		88B5894A1CCBF08400E94942 /* ToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B589431CCBF08400E94942 /* ToolView.xib */; };
+		88B5894B1CCBF08400E94942 /* ToolWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B589451CCBF08400E94942 /* ToolWindowController.m */; };
+		88B589581CCBF0B500E94942 /* ImageAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5894D1CCBF0B500E94942 /* ImageAnalysis.m */; };
+		88B589591CCBF0B500E94942 /* ImageProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5894F1CCBF0B500E94942 /* ImageProcessing.m */; };
+		88B5895A1CCBF0B500E94942 /* ImageRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B589511CCBF0B500E94942 /* ImageRepresentation.m */; };
+		88B5895B1CCBF0B500E94942 /* IntArrayUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B589531CCBF0B500E94942 /* IntArrayUtil.m */; };
+		88B5895C1CCBF0B500E94942 /* Morphology.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B589551CCBF0B500E94942 /* Morphology.m */; };
+		88B5895D1CCBF0B500E94942 /* ZhangSuenThin.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B589571CCBF0B500E94942 /* ZhangSuenThin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88B589101CCBF02000E94942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B588F11CCBF01F00E94942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B588F81CCBF01F00E94942;
+			remoteInfo = "Type o magic";
+		};
+		88B5891B1CCBF02000E94942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B588F11CCBF01F00E94942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B588F81CCBF01F00E94942;
+			remoteInfo = "Type o magic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88B588F91CCBF01F00E94942 /* Type o magic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Type o magic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B588FC1CCBF01F00E94942 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88B588FD1CCBF01F00E94942 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88B589001CCBF01F00E94942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88B589051CCBF01F00E94942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88B589081CCBF01F00E94942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88B5890A1CCBF01F00E94942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B5890F1CCBF02000E94942 /* Type o magicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Type o magicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B589131CCBF02000E94942 /* Type_o_magicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Type_o_magicTests.m; sourceTree = "<group>"; };
+		88B589151CCBF02000E94942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B5891A1CCBF02000E94942 /* Type o magicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Type o magicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B5891E1CCBF02000E94942 /* Type_o_magicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Type_o_magicUITests.m; sourceTree = "<group>"; };
+		88B589201CCBF02000E94942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B5892C1CCBF07B00E94942 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		88B5892D1CCBF07B00E94942 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
+		88B5892E1CCBF07B00E94942 /* DrawingWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawingWindow.xib; sourceTree = "<group>"; };
+		88B5892F1CCBF07B00E94942 /* DrawingWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingWindowController.h; sourceTree = "<group>"; };
+		88B589301CCBF07B00E94942 /* DrawingWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingWindowController.m; sourceTree = "<group>"; };
+		88B589311CCBF07B00E94942 /* DropZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropZoneView.h; sourceTree = "<group>"; };
+		88B589321CCBF07B00E94942 /* DropZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropZoneView.m; sourceTree = "<group>"; };
+		88B589331CCBF07B00E94942 /* ImageCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCropView.h; sourceTree = "<group>"; };
+		88B589341CCBF07B00E94942 /* ImageCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCropView.m; sourceTree = "<group>"; };
+		88B589351CCBF07B00E94942 /* ImageManipulationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManipulationView.h; sourceTree = "<group>"; };
+		88B589361CCBF07B00E94942 /* ImageManipulationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManipulationView.m; sourceTree = "<group>"; };
+		88B5893D1CCBF08400E94942 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		88B5893E1CCBF08400E94942 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		88B5893F1CCBF08400E94942 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		88B589401CCBF08400E94942 /* PixelTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixelTrace.h; sourceTree = "<group>"; };
+		88B589411CCBF08400E94942 /* PixelTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixelTrace.m; sourceTree = "<group>"; };
+		88B589421CCBF08400E94942 /* SVGWebDisplayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVGWebDisplayView.xib; sourceTree = "<group>"; };
+		88B589431CCBF08400E94942 /* ToolView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToolView.xib; sourceTree = "<group>"; };
+		88B589441CCBF08400E94942 /* ToolWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolWindowController.h; sourceTree = "<group>"; };
+		88B589451CCBF08400E94942 /* ToolWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolWindowController.m; sourceTree = "<group>"; };
+		88B5894C1CCBF0B500E94942 /* ImageAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAnalysis.h; sourceTree = "<group>"; };
+		88B5894D1CCBF0B500E94942 /* ImageAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAnalysis.m; sourceTree = "<group>"; };
+		88B5894E1CCBF0B500E94942 /* ImageProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessing.h; sourceTree = "<group>"; };
+		88B5894F1CCBF0B500E94942 /* ImageProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProcessing.m; sourceTree = "<group>"; };
+		88B589501CCBF0B500E94942 /* ImageRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageRepresentation.h; sourceTree = "<group>"; };
+		88B589511CCBF0B500E94942 /* ImageRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageRepresentation.m; sourceTree = "<group>"; };
+		88B589521CCBF0B500E94942 /* IntArrayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntArrayUtil.h; sourceTree = "<group>"; };
+		88B589531CCBF0B500E94942 /* IntArrayUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntArrayUtil.m; sourceTree = "<group>"; };
+		88B589541CCBF0B500E94942 /* Morphology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Morphology.h; sourceTree = "<group>"; };
+		88B589551CCBF0B500E94942 /* Morphology.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Morphology.m; sourceTree = "<group>"; };
+		88B589561CCBF0B500E94942 /* ZhangSuenThin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhangSuenThin.h; sourceTree = "<group>"; };
+		88B589571CCBF0B500E94942 /* ZhangSuenThin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhangSuenThin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88B588F61CCBF01F00E94942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B5890C1CCBF02000E94942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B589171CCBF02000E94942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88B588F01CCBF01F00E94942 = {
+			isa = PBXGroup;
+			children = (
+				88B588FB1CCBF01F00E94942 /* Type o magic */,
+				88B589121CCBF02000E94942 /* Type o magicTests */,
+				88B5891D1CCBF02000E94942 /* Type o magicUITests */,
+				88B588FA1CCBF01F00E94942 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88B588FA1CCBF01F00E94942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88B588F91CCBF01F00E94942 /* Type o magic.app */,
+				88B5890F1CCBF02000E94942 /* Type o magicTests.xctest */,
+				88B5891A1CCBF02000E94942 /* Type o magicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88B588FB1CCBF01F00E94942 /* Type o magic */ = {
+			isa = PBXGroup;
+			children = (
+				88B5895E1CCBF14A00E94942 /* Models */,
+				88B589611CCBF17C00E94942 /* Views */,
+				88B5895F1CCBF16200E94942 /* Controllers */,
+				88B589601CCBF16C00E94942 /* Util */,
+				88B589621CCBF18B00E94942 /* Nibs */,
+				88B588FC1CCBF01F00E94942 /* AppDelegate.h */,
+				88B588FD1CCBF01F00E94942 /* AppDelegate.m */,
+				88B589051CCBF01F00E94942 /* Assets.xcassets */,
+				88B5890A1CCBF01F00E94942 /* Info.plist */,
+				88B588FF1CCBF01F00E94942 /* Supporting Files */,
+			);
+			path = "Type o magic";
+			sourceTree = "<group>";
+		};
+		88B588FF1CCBF01F00E94942 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88B589001CCBF01F00E94942 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88B589121CCBF02000E94942 /* Type o magicTests */ = {
+			isa = PBXGroup;
+			children = (
+				88B589131CCBF02000E94942 /* Type_o_magicTests.m */,
+				88B589151CCBF02000E94942 /* Info.plist */,
+			);
+			path = "Type o magicTests";
+			sourceTree = "<group>";
+		};
+		88B5891D1CCBF02000E94942 /* Type o magicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88B5891E1CCBF02000E94942 /* Type_o_magicUITests.m */,
+				88B589201CCBF02000E94942 /* Info.plist */,
+			);
+			path = "Type o magicUITests";
+			sourceTree = "<group>";
+		};
+		88B5895E1CCBF14A00E94942 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				88B589401CCBF08400E94942 /* PixelTrace.h */,
+				88B589411CCBF08400E94942 /* PixelTrace.m */,
+				88B5894C1CCBF0B500E94942 /* ImageAnalysis.h */,
+				88B5894D1CCBF0B500E94942 /* ImageAnalysis.m */,
+				88B5894E1CCBF0B500E94942 /* ImageProcessing.h */,
+				88B5894F1CCBF0B500E94942 /* ImageProcessing.m */,
+				88B589501CCBF0B500E94942 /* ImageRepresentation.h */,
+				88B589511CCBF0B500E94942 /* ImageRepresentation.m */,
+				88B589541CCBF0B500E94942 /* Morphology.h */,
+				88B589551CCBF0B500E94942 /* Morphology.m */,
+				88B589561CCBF0B500E94942 /* ZhangSuenThin.h */,
+				88B589571CCBF0B500E94942 /* ZhangSuenThin.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		88B5895F1CCBF16200E94942 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				88B5893E1CCBF08400E94942 /* MainWindowController.h */,
+				88B5893F1CCBF08400E94942 /* MainWindowController.m */,
+				88B589441CCBF08400E94942 /* ToolWindowController.h */,
+				88B589451CCBF08400E94942 /* ToolWindowController.m */,
+				88B5892F1CCBF07B00E94942 /* DrawingWindowController.h */,
+				88B589301CCBF07B00E94942 /* DrawingWindowController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		88B589601CCBF16C00E94942 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				88B589521CCBF0B500E94942 /* IntArrayUtil.h */,
+				88B589531CCBF0B500E94942 /* IntArrayUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		88B589611CCBF17C00E94942 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88B5892C1CCBF07B00E94942 /* DrawingView.h */,
+				88B5892D1CCBF07B00E94942 /* DrawingView.m */,
+				88B589311CCBF07B00E94942 /* DropZoneView.h */,
+				88B589321CCBF07B00E94942 /* DropZoneView.m */,
+				88B589331CCBF07B00E94942 /* ImageCropView.h */,
+				88B589341CCBF07B00E94942 /* ImageCropView.m */,
+				88B589351CCBF07B00E94942 /* ImageManipulationView.h */,
+				88B589361CCBF07B00E94942 /* ImageManipulationView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		88B589621CCBF18B00E94942 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				88B5893D1CCBF08400E94942 /* MainWindow.xib */,
+				88B589421CCBF08400E94942 /* SVGWebDisplayView.xib */,
+				88B589431CCBF08400E94942 /* ToolView.xib */,
+				88B5892E1CCBF07B00E94942 /* DrawingWindow.xib */,
+				88B589071CCBF01F00E94942 /* Main.storyboard */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88B588F81CCBF01F00E94942 /* Type o magic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B589231CCBF02000E94942 /* Build configuration list for PBXNativeTarget "Type o magic" */;
+			buildPhases = (
+				88B588F51CCBF01F00E94942 /* Sources */,
+				88B588F61CCBF01F00E94942 /* Frameworks */,
+				88B588F71CCBF01F00E94942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Type o magic";
+			productName = "Type o magic";
+			productReference = 88B588F91CCBF01F00E94942 /* Type o magic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88B5890E1CCBF02000E94942 /* Type o magicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B589261CCBF02000E94942 /* Build configuration list for PBXNativeTarget "Type o magicTests" */;
+			buildPhases = (
+				88B5890B1CCBF02000E94942 /* Sources */,
+				88B5890C1CCBF02000E94942 /* Frameworks */,
+				88B5890D1CCBF02000E94942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88B589111CCBF02000E94942 /* PBXTargetDependency */,
+			);
+			name = "Type o magicTests";
+			productName = "Type o magicTests";
+			productReference = 88B5890F1CCBF02000E94942 /* Type o magicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88B589191CCBF02000E94942 /* Type o magicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B589291CCBF02000E94942 /* Build configuration list for PBXNativeTarget "Type o magicUITests" */;
+			buildPhases = (
+				88B589161CCBF02000E94942 /* Sources */,
+				88B589171CCBF02000E94942 /* Frameworks */,
+				88B589181CCBF02000E94942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88B5891C1CCBF02000E94942 /* PBXTargetDependency */,
+			);
+			name = "Type o magicUITests";
+			productName = "Type o magicUITests";
+			productReference = 88B5891A1CCBF02000E94942 /* Type o magicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88B588F11CCBF01F00E94942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "James Mitchell";
+				TargetAttributes = {
+					88B588F81CCBF01F00E94942 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					88B5890E1CCBF02000E94942 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 88B588F81CCBF01F00E94942;
+					};
+					88B589191CCBF02000E94942 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 88B588F81CCBF01F00E94942;
+					};
+				};
+			};
+			buildConfigurationList = 88B588F41CCBF01F00E94942 /* Build configuration list for PBXProject "Type o magic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88B588F01CCBF01F00E94942;
+			productRefGroup = 88B588FA1CCBF01F00E94942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88B588F81CCBF01F00E94942 /* Type o magic */,
+				88B5890E1CCBF02000E94942 /* Type o magicTests */,
+				88B589191CCBF02000E94942 /* Type o magicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88B588F71CCBF01F00E94942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B589491CCBF08400E94942 /* SVGWebDisplayView.xib in Resources */,
+				88B589461CCBF08400E94942 /* MainWindow.xib in Resources */,
+				88B589381CCBF07B00E94942 /* DrawingWindow.xib in Resources */,
+				88B589061CCBF01F00E94942 /* Assets.xcassets in Resources */,
+				88B5894A1CCBF08400E94942 /* ToolView.xib in Resources */,
+				88B589091CCBF01F00E94942 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B5890D1CCBF02000E94942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B589181CCBF02000E94942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88B588F51CCBF01F00E94942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B5895D1CCBF0B500E94942 /* ZhangSuenThin.m in Sources */,
+				88B589481CCBF08400E94942 /* PixelTrace.m in Sources */,
+				88B5895B1CCBF0B500E94942 /* IntArrayUtil.m in Sources */,
+				88B5893B1CCBF07B00E94942 /* ImageCropView.m in Sources */,
+				88B5895A1CCBF0B500E94942 /* ImageRepresentation.m in Sources */,
+				88B5893C1CCBF07B00E94942 /* ImageManipulationView.m in Sources */,
+				88B589581CCBF0B500E94942 /* ImageAnalysis.m in Sources */,
+				88B589591CCBF0B500E94942 /* ImageProcessing.m in Sources */,
+				88B589391CCBF07B00E94942 /* DrawingWindowController.m in Sources */,
+				88B589011CCBF01F00E94942 /* main.m in Sources */,
+				88B588FE1CCBF01F00E94942 /* AppDelegate.m in Sources */,
+				88B589471CCBF08400E94942 /* MainWindowController.m in Sources */,
+				88B5894B1CCBF08400E94942 /* ToolWindowController.m in Sources */,
+				88B5895C1CCBF0B500E94942 /* Morphology.m in Sources */,
+				88B589371CCBF07B00E94942 /* DrawingView.m in Sources */,
+				88B5893A1CCBF07B00E94942 /* DropZoneView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B5890B1CCBF02000E94942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B589141CCBF02000E94942 /* Type_o_magicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B589161CCBF02000E94942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B5891F1CCBF02000E94942 /* Type_o_magicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88B589111CCBF02000E94942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B588F81CCBF01F00E94942 /* Type o magic */;
+			targetProxy = 88B589101CCBF02000E94942 /* PBXContainerItemProxy */;
+		};
+		88B5891C1CCBF02000E94942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B588F81CCBF01F00E94942 /* Type o magic */;
+			targetProxy = 88B5891B1CCBF02000E94942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88B589071CCBF01F00E94942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B589081CCBF01F00E94942 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88B589211CCBF02000E94942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		88B589221CCBF02000E94942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		88B589241CCBF02000E94942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Type o magic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jm.Type-o-magic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88B589251CCBF02000E94942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Type o magic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jm.Type-o-magic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88B589271CCBF02000E94942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Type o magicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jm.Type-o-magicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Type o magic.app/Contents/MacOS/Type o magic";
+			};
+			name = Debug;
+		};
+		88B589281CCBF02000E94942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Type o magicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jm.Type-o-magicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Type o magic.app/Contents/MacOS/Type o magic";
+			};
+			name = Release;
+		};
+		88B5892A1CCBF02000E94942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Type o magicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jm.Type-o-magicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Type o magic";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		88B5892B1CCBF02000E94942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Type o magicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jm.Type-o-magicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Type o magic";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88B588F41CCBF01F00E94942 /* Build configuration list for PBXProject "Type o magic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B589211CCBF02000E94942 /* Debug */,
+				88B589221CCBF02000E94942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B589231CCBF02000E94942 /* Build configuration list for PBXNativeTarget "Type o magic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B589241CCBF02000E94942 /* Debug */,
+				88B589251CCBF02000E94942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88B589261CCBF02000E94942 /* Build configuration list for PBXNativeTarget "Type o magicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B589271CCBF02000E94942 /* Debug */,
+				88B589281CCBF02000E94942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88B589291CCBF02000E94942 /* Build configuration list for PBXNativeTarget "Type o magicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B5892A1CCBF02000E94942 /* Debug */,
+				88B5892B1CCBF02000E94942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88B588F11CCBF01F00E94942 /* Project object */;
+}
